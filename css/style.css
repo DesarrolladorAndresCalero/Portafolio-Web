@@ -204,9 +204,10 @@ img {
 
 .hireme {
   text-align: center;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+
 }
 
 .hireme p {
@@ -265,12 +266,23 @@ img {
   text-align: center;
 }
 
+.esconder{
+  display: none;
+}
+
 /* General hero */
 .hero {
   background: var(--main-color);
-  height: 50vh;
+  height: 150px;
   padding: 50px;
-  margin-top: 80px;
+  margin-top: 50px;
+}
+
+.hero1 {
+  background: var(--main-color);
+  height: 150px;
+  padding: 50px;
+  margin-top: 180px;
 }
 
 .hero-header-text {
